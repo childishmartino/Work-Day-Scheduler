@@ -3,8 +3,8 @@ $("#currentDay").text(today.format("dddd, MMM Do YYYY"));
 var currentHour = parseInt(moment().format('H'));
 var trEl = $(".time-table");
 
-
-function getCurrentHour() {
+// checks hour and colors table rows based on time
+function getCurrentHour() { 
 
     for (var i = 0; i < trEl.length; i++) {
         var trElementId = trEl[i].id;
@@ -23,6 +23,7 @@ function getCurrentHour() {
     }
 };
 
+// next set of functions (each is a row) add an event listener to the button in each row and saves the content of the form to local storage/ gets from local storage and displays
 function nineAM() {
     var input_text = document.getElementById("task9");
     var output_div = document.getElementById("task9");
@@ -167,6 +168,7 @@ function fivePM() {
     }
 };
 
+//all these fire on page load
 nineAM();
 tenAM();
 elevenAM();
