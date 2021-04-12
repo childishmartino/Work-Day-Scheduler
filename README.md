@@ -25,8 +25,8 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-link to site: https://childishmartino.github.io/homework05/
+link to site: https://childishmartino.github.io/Work-Day-Scheduler/
 
-link to repo: https://github.com/childishmartino/homework05
+link to repo: https://github.com/childishmartino/Work-Day-Scheduler
 
 ![screenshot of homework.](./assets/images/screenshothomework05.png)
